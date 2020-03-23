@@ -1,22 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import ela from './ela.jpg'
 import './App.css';
 
-function App() {
+function App () {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={ela} className="App-logo" alt="logo" />
+        <br>
+        </br>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Eu te amo minha princesa
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://drive.google.com/file/d/1K_B9hhgY4_6IDGGj0Fcm3fdtG7Jl0BzC/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Estou com saudades
         </a>
       </header>
     </div>
